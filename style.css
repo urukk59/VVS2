@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Main{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Cabecera{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 50px;
+    padding: 0 40px;
+}
+.Cabecera_link{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+}
+.Cabecera_img{
+    object-fit: cover;
+    height: 90%;
+    margin-right: 10px;
+}
+.Nav{
+    background-color: black;
+    width: 70%;
+    height: 60px;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+}
+.Nav a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    padding: 25px 50px;
+}
+.Nav a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
+}
+.banner{
+    background-image: url(img/rll.jpg.jpg);
+    background-position: center;
+    width: 70%;
+    height: calc(100vh - 110px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_text{
+    text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0)px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0)x 1px 0 rgb(0, 0, 0);
+    text-align: center;
+}
+.banner h1{
+    font-size: 75px;
+}
+.banner h2{
+    font-size: 30px;
+}
+.banner a{
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    width: 250px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 24px;
+    margin-top: 75px;
+    color: rgb(255, 255, 255);
+}
+.banner a:hover{
+    background-color:  rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+}
+.Seccion-2{
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+}
+.Left_block{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 0 3%;
+}
+.Left_titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Left_titulo h2{
+    font-size: 28px;
+}
+.Left_titulo h3{
+    font-size: 18px;
+    margin-top: 10px;
+    color: rgb(123, 123, 123);
+}
+.Left_img{
+    width: 100%;
+    margin: 30px 0;
+}
+.Left_img img{
+    object-fit: cover;
+    width: 100%;
+}
+.Left_p{
+ font-size: 18px;
+}
+.Rigth-block{
+    width: 40%;
+    height: 100%;
+    padding: 0 3%;
+}
+.Rigth_titulo{
+    text-align: center;
+}
+.Rigth_titulo h3{
+    font-size: 20px;
+}
+.Rigth_bio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    margin: 30px 0;
+}
+.bio_img{
+    width: 100%;
+}
+.bio_img img{
+    object-fit: cover;
+    width: 90%;
+    height: 300px;
+}
+.bio_p{
+    width: 50%;
+    margin: 0 10px;
+}
+.bio_p h4{
+    font-size: 15px;
+    text-align: justify;
+}
+.bio_p a{
+    font-size: 14px;
+    margin-top: 15px;
+}
+.Seccion_3{
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.Article{
+    height: 100%;
+    width: 60%;
+    padding: 0 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Tabla_titulo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Tabla_titulo h2{
+    font-size: 18px;
+    color: black;
+}
+.Tabla_titulo h3{
+    font-size: 18px;
+    margin-top: 10px;
+    color: rgb(63, 63, 63);
+}
+.Tabla_div{
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    margin: 30px 0;
+}
+.Tabla{
+    table-layout: auto;
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+}
+.Tabla_1{
+    width: auto;
+    height: 40px;
+}
+.Tabla_2{
+    width: auto;
+    height: 40px;
+    color: white;
+}
+.Tabla_2:nth-child(odd){
+   background-color: rgb(0, 0, 0);
+}
+.Tabla_2:nth-child(even){
+    background-color: rgba(104, 104, 104, 0.247);
+}
+.Columna{
+    border: 1px solid black;
+    text-align: center;
+}
+.Rs_div{
+    width: 100%;
+    height: auto;
+}
+
+.Aside{
+    width: 40%;
+    height: 100%;
+    margin: 0 30px;
+}
+.Mapa{
+    background-color: aquamarine;
+    width: 100%;
+    height: 35%;
+}
+.Mapa iframe{
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.Form_div h3{
+    font-size: 24px;
+    padding: 20px 0;
+}
+.Form_div h3{
+    font-size: 18px;
+    padding: 20px 0;
+    text-align: center;
+}
+.Form_div{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 15px;
+}
+.Form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    width: 100%;
+    height: 80px;
+    margin: 5px 0;
+    outline: none;
+    padding-left: 5px;
+}
+.Textarea{
+    width: 100%;
+    height: 85px;
+    margin: 5px 0;
+    outline: none;
+    resize: none;
+    padding-left: 5px;
+}
+.submit{
+    width: 50%;
+    height: 45px;
+    margin: 20px 0;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.Seccion_4{
+    width: 70%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+.Nav_footer{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.Nav_footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 25px 50px;
+}
+.Nav_footer a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
+}
+.Contenedor_4{
+    background-color: blueviolet;
+    width: 100%;
+    height: calc(100% - 120px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Textos_4{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 5%;
+}
+.Textos_4 p{
+    color: white;
+    font-size: 18px;
+}
+.Textos_4 ul{
+    color: white;
+    font-size: 18px;
+}
+.Textos_4 h3{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+.Textos_4 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.Textos_4:nth-child(odd){
+    background-color: rgb(0, 0, 0);
+}
+.Textos_4:nth-child(even){
+    background-color: rgb(78, 77, 77);
+}
+.footer{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.footer a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+.footer p{
+    font-size: 18px;
+} 
